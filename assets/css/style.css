@@ -1,0 +1,45 @@
+body {
+	background-color: #FFE87C
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.screen {
+    margin-bottom: 750px;
+}
+
+.header{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 50px;
+	font-weight: 550;
+	color: #41A317;
+	text-align: center;
+}
+
+#inner {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #00FFF0;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#screen1 {
+    margin-bottom: 500px;
+    color:#2B65EC;
+}
+
+#screen1-content-title {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+#screen1-content-body {
+    font-size: 3em;
+    font-weight: 300;
+}
+
