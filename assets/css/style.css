@@ -1,49 +1,48 @@
 body {
-	background: url(../img/sunset.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-	font-family: 'Open Sans', sans-serif;
+	background: #FFFFF8
     
 }
 
 a {
-    text-decoration: none;
-    color: #FFFFFF;
+    text-decoration: none;   
 }
 
 
 .screen {
-    margin-bottom: 750px;
 }
 
-.header{
-	margin-top: 50px;
-	font-weight: 550;
-	color: #FFFFFF;
-	text-align: center;
-}
-
-#inner {
-    font-weight: 300;
-    color: #FFFFFF;
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 999;
     text-align: center;
-    margin-top: 70px;
+    padding-top: 10px;
+    font-weight: 450;
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #ff5678
 }
 
-#screen1 {
-    margin-top: 400px;
-    color:#FFFFFF;
-}
-
-#screen1-content-title {
+#temp1 {
+    padding-top: 80px;
     font-size: 6em;
     font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #ff5678;
 }
 
-#screen1-content-body {
+#temp2 {
+    margin-top: 30px;
     font-size: 3em;
     font-weight: 250;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #444444;
 }
 
