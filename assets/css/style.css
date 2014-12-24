@@ -1,5 +1,11 @@
 body {
-	background-color: #FFE87C
+	background: url(../img/sunset.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+    
 }
 
 a {
@@ -13,33 +19,31 @@ a {
 }
 
 .header{
-	font-family: 'Open Sans', sans-serif;
 	margin-top: 50px;
 	font-weight: 550;
-	color: #41A317;
+	color: #FFFFFF;
 	text-align: center;
 }
 
 #inner {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #00FFF0;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 70px;
 }
 
 #screen1 {
-    margin-bottom: 500px;
-    color:#2B65EC;
+    margin-top: 400px;
+    color:#FFFFFF;
 }
 
 #screen1-content-title {
     font-size: 6em;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 #screen1-content-body {
     font-size: 3em;
-    font-weight: 300;
+    font-weight: 250;
 }
 
