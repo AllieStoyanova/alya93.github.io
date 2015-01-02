@@ -21,28 +21,55 @@ a {
     z-index: 999;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 450;
     font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
     color: #FFFFFF;
     background-color: #ff5678
 }
 
-#temp1 {
+.title {
     padding-top: 80px;
-    font-size: 6em;
-    font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    line-height: 300%;
+    font-size: 5em;
+    font-weight: 400;
+    font-family: sans-serif;
     text-align: center;
     color: #ff5678;
 }
 
-#temp2 {
-    margin-top: 30px;
-    font-size: 3em;
-    font-weight: 250;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    color: #444444;
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    line-height: 200%;
+    font-size: 2em;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-align: left;
+    color: #000000;
 }
 
+.subtitle {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 200%;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: left;
+    color: #309bdd; 
+}
+
+.screen{
+    z-index: -1;
+}
+#screen1{
+
+
+}
+
+#screen2{
+    
+}
