@@ -1,5 +1,5 @@
 body {
-	background: #FFFFF8
+	background: #FFFFFC;
     
 }
 
@@ -22,31 +22,30 @@ a {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 450;
+    font-weight: 400;
     font-size: 2em;
-    font-family: sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: #FFFFFF;
-    background-color: #ff5678
+    background-color: #FF5678;
 }
 
 .title {
-    padding-top: 80px;
-    line-height: 300%;
+    margin-top: 80px;
+    margin-bottom: 40px;
     font-size: 5em;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: 'Oxygen', sans-serif;
     text-align: center;
-    color: #ff5678;
+    color: #FF5678;
 }
 
 .content {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
-    line-height: 200%;
-    font-size: 2em;
-    font-weight: 200;
-    font-family: sans-serif;
+    line-height: 60px;
+    font-size: 1.75em;
+    font-weight: 300;
+    font-family: 'Oxygen', sans-serif;
     text-align: left;
     color: #000000;
 }
@@ -54,17 +53,17 @@ a {
 .subtitle {
     margin-left: 10%;
     margin-right: 10%;
-    line-height: 200%;
     font-size: 2em;
-    font-weight: 500;
-    font-family: sans-serif;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
     text-align: left;
-    color: #309bdd; 
+    color: #309BDD; 
 }
 
-.screen{
+.screen {
     z-index: -1;
 }
+
 #screen1{
 
 
