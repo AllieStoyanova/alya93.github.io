@@ -39,6 +39,16 @@ a {
     color: #FF5678;
 }
 
+.contenttitle {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+    text-align: left;
+    color: #309BDD; 
+}
+
 .content {
     margin-left: 10%;
     margin-right: 10%;
@@ -48,16 +58,6 @@ a {
     font-family: 'Oxygen', sans-serif;
     text-align: left;
     color: #000000;
-}
-
-.subtitle {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 2em;
-    font-weight: 400;
-    font-family: 'Oxygen', sans-serif;
-    text-align: left;
-    color: #309BDD; 
 }
 
 .screen {
