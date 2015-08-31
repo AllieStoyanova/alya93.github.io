@@ -1,15 +1,16 @@
 body {
-    background-image: url("../img/flower-wallpaper1-40%.jpg"); 
+    background-color: #ffffe8 ;
+	-webkit-background-size: cover;
     -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 a {
     text-decoration: none;
     color: #309BDD;
 }
+
 
 .screen {
 }
@@ -18,10 +19,10 @@ a {
     height: 40px;
     z-index: 999;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     font-weight: 400;
-    font-size: 4em;
+    font-size: 4.5em;
     font-family: 'Oxygen', sans-serif;
     color: #FF5678;
 }
@@ -33,7 +34,7 @@ a {
     font-weight: 400;
     font-family: 'Oxygen', sans-serif;
     text-align: center;
-    color: #309BDD;
+    color: #FF5678;
 }
 
 .contenttitle {
@@ -43,7 +44,7 @@ a {
     font-weight: 400;
     font-family: 'Oxygen', sans-serif;
     text-align: left;
-    color: #309BDD; 
+    color: #FF5678; 
 }
 
 .content {
@@ -51,20 +52,44 @@ a {
     margin-right: 10%;
     line-height: 60px;
     font-size: 1.75em;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Oxygen', sans-serif;
     text-align: left;
     color: #FF5678;
+    padding-bottom: 20px;
 }
 
 .screen {
     z-index: -1;
 }
-#content5{
+#content4{
     text-align: center;
     color: #309BDD;
 }
 
-#screen1 {
-    margin-left: 35%;
+#content0{
+    text-align: center;
+}
+
+#screen0{
+    font-weight: 400;
+    font-size:1.5em;
+    font-family: 'Oxygen', sans-serif;
+    padding-bottom: 50px;
+}
+
+.about{
+    color:#6C71C4;
+}
+
+.experience{
+    color:#309BDD;
+}
+
+.projects{
+    color:#18DEA9;
+}
+
+#screen2{
+    
 }
